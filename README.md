@@ -1,19 +1,4 @@
 # DemoQA UI Automation Framework
-DemoQA_POM
-├── src/main/java/com/demoqa
-│   ├── config        # Configuration loader (ConfigProvider)
-│   ├── core          # BasePage with core Selenium wrappers and explicit waits
-│   ├── pages         # Page Object classes mapped to application views
-│   └── utils         # Helpers (DataHelper for Faker)
-├── src/test/java/com/demoqa
-│   ├── core          # TestBase managing the WebDriver lifecycle and setup
-│   ├── tests         # JUnit 5 test classes containing assertions
-│   └── utils         # Custom extensions (TestListener for screenshots)
-├── src/test/resources
-│   ├── config.properties # Global environment configurations
-│   └── logback.xml       # Logging configurations
-├── screenshots           # Directory for auto-generated failure screenshots
-└── pom.xml               # Maven dependencies and build plugins
 
 ### 🚀 Project Overview
 A robust, scalable, and maintainable UI Test Automation Framework built to verify the core functionalities of the [DemoQA](https://demoqa.com) web application. This project demonstrates enterprise-level testing practices, focusing on stability, fast execution, and clean architecture.
@@ -57,3 +42,23 @@ The framework currently covers the following modules:
 1. Clone the repository:
    ```bash
    git clone https://github.com/panillich/Demo_QA_POM.git
+
+   ### 📁 Project Structure
+
+```text
+Demo_QA_POM
+├── src/main/java/com/demoqa
+│   ├── config        # Configuration loader (ConfigProvider)
+│   ├── core          # BasePage with core Selenium wrappers and explicit waits
+│   ├── pages         # Page Object classes mapped to application views
+│   └── utils         # Helpers (DataHelper for Faker)
+├── src/test/java/com/demoqa
+│   ├── core          # TestBase managing the WebDriver lifecycle and setup
+│   ├── tests         # JUnit 5 test classes containing assertions
+│   └── utils         # Custom extensions (TestListener for screenshots)
+├── src/test/resources
+│   ├── config.properties # Global environment configurations
+│   └── logback.xml       # Logging configurations
+├── screenshots           # Directory for auto-generated failure screenshots
+└── pom.xml               # Maven dependencies and build plugins
+```
