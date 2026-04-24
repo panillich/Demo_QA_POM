@@ -1,0 +1,16 @@
+# Сборка Maven
+target/
+
+# Артефакты тестов (Логи и Скриншоты)
+logs/
+screenshots/
+
+# Настройки IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Системные файлы (Mac / Windows)
+.DS_Store
+Thumbs.db
