@@ -56,4 +56,4 @@ The framework currently covers the following modules:
 #### Installation & Execution
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/YourUsername/QA77_DemoQA_POM.git](https://github.com/YourUsername/QA77_DemoQA_POM.git)
+   git clone https://github.com/panillich/Demo_QA_POM.git
